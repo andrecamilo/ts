@@ -4,3 +4,5 @@ npm install typescript -g
 tsc -v
 tsc app.ts
 tsc -w
+
+node distapp
