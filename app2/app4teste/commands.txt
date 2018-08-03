@@ -1,4 +1,5 @@
- 
+sudo ng g c header --spec=false 
+
 sudo npm install -g @angular/cli
 
 npm install -g angular-cli
