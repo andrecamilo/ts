@@ -1,0 +1,22 @@
+ 
+sudo npm install -g @angular/cli
+
+npm install -g angular-cli
+
+ng new PROJECT_NAME
+cd PROJECT_NAME
+ng serve
+
+ng serve --host 0.0.0.0 --port 4201 --live-reload-port 49153
+
+ng generate component my-new-component
+ng g component my-new-component # using the alias 
+ 
+# components support relative path generation 
+# if in the directory src/app/feature/ and you run 
+ng g component new-cmp
+# your component will be generated in src/app/feature/new-cmp 
+# but if you were to run 
+ng g component ../newer-cmp
+# your component will be generated in src/app/newer-cmp 
+
